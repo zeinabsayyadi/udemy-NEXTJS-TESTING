@@ -56,6 +56,7 @@ export default function SignIn() {
     }).then(
       // @ts-expect-error (docs for signIn return value conflict with TypeScript)
       ({ error }) => {
+        console.log(error);
         if (error) setAuthError(error);
       }
     )

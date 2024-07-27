@@ -22,6 +22,10 @@
       },
       "typescript": {
         "alwaysTryTypes": true
+      },
+      "alias": {
+        "map": [["@", "."]],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     }
   },
